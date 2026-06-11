@@ -7,7 +7,7 @@ export default function Login() {
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("https://e-commerce-one-tan-10.vercel.app/api/users/login", {
+    const res = await fetch("https://e-commerce-5xtf.vercel.app/api/users/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
