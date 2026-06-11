@@ -8,7 +8,7 @@ export default function Register() {
   const handleRegister = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("http://localhost:5000/api/users/register", {
+    const res = await fetch("https://e-commerce-one-tan-10.vercel.app/api/users/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
