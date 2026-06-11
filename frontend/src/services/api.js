@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://e-commerce-one-tan-10.vercel.app/api";
 
 // 📥 get products
 export const getProducts = async (search = "") => {
